@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<REPORTTEMPLATE>
+  <SCANTEMPLATE>
+    <TITLE>
+      <INFO key="title"><![CDATA[placeholder]]></INFO>
+    </TITLE>
+    <TARGET>
+      <INFO key="scan_selection"><![CDATA[HostBased]]></INFO>
+      <INFO key="include_trending"><![CDATA[0]]></INFO>
+      <INFO key="selection_type"><![CDATA[none]]></INFO>
+      <INFO key="selection_range"><![CDATA[]]></INFO>
+      <INFO key="limit_timeframe"><![CDATA[0]]></INFO>
+      <INFO key="asset_groups"><![CDATA[All]]></INFO>
+      <INFO key="network"><![CDATA[]]></INFO>
+      <INFO key="ips"><![CDATA[]]></INFO>
+      <INFO key="host_with_cloud_agents"><![CDATA[]]></INFO>
+    </TARGET>
+    <DISPLAY>
+      <INFO key="graph_business_risk"><![CDATA[0]]></INFO>
+      <INFO key="graph_vuln_over_time"><![CDATA[0]]></INFO>
+      <INFO key="display_text_summary"><![CDATA[0]]></INFO>
+      <INFO key="graph_status"><![CDATA[0]]></INFO>
+      <INFO key="graph_potential_status"><![CDATA[0]]></INFO>
+      <INFO key="graph_severity"><![CDATA[0]]></INFO>
+      <INFO key="graph_potential_severity"><![CDATA[0]]></INFO>
+      <INFO key="graph_ig_severity"><![CDATA[0]]></INFO>
+      <INFO key="graph_top_categories"><![CDATA[0]]></INFO>
+      <INFO key="graph_top_vulns"><![CDATA[0]]></INFO>
+      <INFO key="graph_os"><![CDATA[0]]></INFO>
+      <INFO key="graph_services"><![CDATA[0]]></INFO>
+      <INFO key="graph_top_ports"><![CDATA[0]]></INFO>
+      <INFO key="display_custom_footer"><![CDATA[0]]></INFO>
+      <INFO key="display_custom_footer_text"><![CDATA[]]></INFO>
+      <INFO key="sort_by"><![CDATA[group]]></INFO>
+      <INFO key="host_details"><![CDATA[0]]></INFO>
+      <INFO key="include_text_summary"><![CDATA[1]]></INFO>
+      <INFO key="include_vuln_details"><![CDATA[1]]></INFO>
+      <INFO key="include_vuln_details_threat"><![CDATA[1]]></INFO>
+      <INFO key="include_vuln_details_impact"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_solution"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_vpatch"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_compliance"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_exploit"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_malware"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_results"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_appendix"><![CDATA[0]]></INFO>
+      <INFO key="exclude_account_id"><![CDATA[0]]></INFO>
+      <INFO key="include_vuln_details_reopened"><![CDATA[0]]></INFO>
+      <INFO key="metadata_ec2_instances"><![CDATA[1]]></INFO>
+    </DISPLAY>
+    <FILTER>
+      <INFO key="selective_vulns"><![CDATA[custom]]></INFO>
+      <INFO key="search_list_ids"><![CDATA[placeholder]]></INFO>
+      <INFO key="exclude_qid_option"><![CDATA[0]]></INFO>
+      <INFO key="exclude_search_list_ids"><![CDATA[0]]></INFO>
+      <INFO key="included_os"><![CDATA[ALL]]></INFO>
+      <INFO key="status_new"><![CDATA[0]]></INFO>
+      <INFO key="status_active"><![CDATA[1]]></INFO>
+      <INFO key="status_reopen"><![CDATA[0]]></INFO>
+      <INFO key="status_fixed"><![CDATA[0]]></INFO>
+      <INFO key="vuln_active"><![CDATA[1]]></INFO>
+      <INFO key="vuln_disabled"><![CDATA[1]]></INFO>
+      <INFO key="vuln_ignored"><![CDATA[1]]></INFO>
+      <INFO key="potential_active"><![CDATA[0]]></INFO>
+      <INFO key="potential_disabled"><![CDATA[0]]></INFO>
+      <INFO key="potential_ignored"><![CDATA[0]]></INFO>
+      <INFO key="ig_active"><![CDATA[1]]></INFO>
+      <INFO key="ig_disabled"><![CDATA[0]]></INFO>
+      <INFO key="ig_ignored"><![CDATA[0]]></INFO>
+      <INFO key="display_non_running_kernels"><![CDATA[0]]></INFO>
+      <INFO key="exclude_non_running_kernel"><![CDATA[0]]></INFO>
+      <INFO key="exclude_non_running_services"><![CDATA[0]]></INFO>
+      <INFO key="exclude_superceded_patches"><![CDATA[0]]></INFO>
+      <INFO key="exclude_qids_not_exploitable_due_to_configuration"><![CDATA[0]]></INFO>
+      <INFO key="categories_list"><![CDATA[ALL]]></INFO>
+    </FILTER>
+    <SERVICESPORTS>
+      <INFO key="required_services"><![CDATA[]]></INFO>
+      <INFO key="unauthorized_services"><![CDATA[]]></INFO>
+      <INFO key="services_info"><![CDATA[]]></INFO>
+      <INFO key="required_ports"><![CDATA[]]></INFO>
+      <INFO key="unauthorized_ports"><![CDATA[]]></INFO>
+    </SERVICESPORTS>
+    <USERACCESS>
+      <INFO key="report_access_users"><![CDATA[]]></INFO>
+      <INFO key="global"><![CDATA[1]]></INFO>
+    </USERACCESS>
+  </SCANTEMPLATE>
+</REPORTTEMPLATE>
+<!-- CONFIDENTIAL AND PROPRIETARY INFORMATION. Qualys provides the QualysGuard Service "As Is," without any warranty of any kind. Qualys makes no warranty that the information contained in this report is complete or error-free. Copyright 2018, Qualys, Inc. //-->

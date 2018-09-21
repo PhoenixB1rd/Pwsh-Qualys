@@ -1,0 +1,36 @@
+Powershell Modules for Macs!
+In the terminal on Mac:
+
+Powershell can be installed via Homebrew in the Mac Terminal.
+
+	Use these commands to install Powershell
+	Brew update-reset
+	Brew update
+	brew cask install powershell
+	pwsh
+	exit
+
+For the module you will need to install git on the MAC.
+	Git –version
+      -If you don’t have git on your Mac, running the above command will prompt you to install it.
+
+To download the Powershell module I’ve made:
+Create a folder that will become the place for the git repositories, move to that folder, initialize with git, then clone the repo into the folder that was created.
+	Mkdir BitBucket
+	Cd BitBucket
+	Git init
+	Git clone https://<repositoryname>
+
+Then to use the module you need to import it to your powershell session. This will need to be done every time you open a new powershell session. Unless you make a profile. Information on creating a powershell profile can be found here.
+
+	Import-profile ./<directory that contains module>/Qualys-Powershell/Qualys.psd1
+Before you run any commands you need to authenticate to Qualys with you API account. Then save that into a session variable. Here is the command to get a cookie:
+	$cookie = Connect-Qualys –qualysServer “qualysapi.qualys.com” –creds (Get-Credential)
+
+To see what commands are all in the module, use this command:
+	Get-Command -Module Qualys
+
+To get the help that I created for each function. Use this command:
+	Get-Help <command>
+
+To view a pretty version of help for the commands, please open the file ./Qualys-Powershell/En-US/index.html . This will open a page in your browser with all the native powershell help I build into each function.
